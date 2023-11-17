@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="terminal">
+        <div id="mainInfo">
+            <div>
+                <div class="inlineContainer">
+                    <pre>                               
+ ███╗░░░███╗██╗░█████╗░██╗░░██╗░█████╗░███████╗██╗░░░░░
+ ████╗░████║██║██╔══██╗██║░░██║██╔══██╗██╔════╝██║░░░░░
+ ██╔████╔██║██║██║░░╚═╝███████║███████║█████╗░░██║░░░░░
+ ██║╚██╔╝██║██║██║░░██╗██╔══██║██╔══██║██╔══╝░░██║░░░░░
+ ██║░╚═╝░██║██║╚█████╔╝██║░░██║██║░░██║███████╗███████╗
+ ╚═╝░░░░░╚═╝╚═╝░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝
+                    </pre>
+                    <img src="https://avatars.githubusercontent.com/u/65639270?v=4" alt class="avatar" />
+                </div>
+                <br />
+                <p id="typewriterText">I am a self-taught and curious software developer.</p>          
+                Welcome to my Personal Terminal Portfolio!
+            </div>
+            <div id="helpCmdList"></div>
+        </div>
+        <div id="output"></div>
+        <div id="input" class="command-input">
+            <span id="prompt">
+                <span class="ownerTerminal"><b>michaelkamau@profile</b></span><b>:~$</b>
+            </span>
+            <input type="text" id="cmd" oninput="showSuggestions()" onkeydown="handleKeyDown(event)" />
+        </div>
+
+        <div id="suggestions"></div>
+        <br><br>
+    </div>
+</body>
+
+</html>
+
+</html>
